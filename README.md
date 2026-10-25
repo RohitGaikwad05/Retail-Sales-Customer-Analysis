@@ -109,33 +109,31 @@ The dashboard is organised into three analytical pages.
 ## 🗂️ Repository Structure
 
 ```text
-Retail-Sales-Customer-Analysis/
+Retail_Analytics_Project/
 │
 ├── data/
 │   ├── raw/
 │   └── processed/
-│
-├── python/
-│   ├── data_cleaning.ipynb
-│   └── exploratory_data_analysis.ipynb
+|
+├── notebooks/
+│   ├── 01_Data_Understanding.ipynb
+│   ├── 02_Data_Cleaning.ipynb
+│   ├── 03_Data_Transformation.ipynb
+│   ├── 04_Sales_Analysis.ipynb
+│   ├── 05_Customer_Analysis.ipynb
+│   └── 06_Product_Analysis.ipynb
 │
 ├── sql/
-│   └── retail_analysis_queries.sql
 │
-├── powerbi/
-│   └── Retail_Sales_Analysis.pbix
+├── dashboard/
+│   └── Retail_Analytics.pbix
 │
 ├── screenshots/
-│   ├── executive-overview.png
-│   ├── customer-insights.png
-│   └── product-performance.png
 │
 ├── reports/
-│   ├── project-report.docx
-│   └── project-presentation.pptx
 │
-├── requirements.txt
-├── .gitignore
+├── ppt/
+│
 └── README.md
 ```
 
